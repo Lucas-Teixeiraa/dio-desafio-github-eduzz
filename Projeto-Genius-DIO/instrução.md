@@ -1,0 +1,1 @@
+##Atividade resolvida para fins de estudo em JAVASCRIPT, HTML E CSS!
