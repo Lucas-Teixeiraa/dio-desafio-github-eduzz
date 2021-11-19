@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('./font/Cocogoose\ Pro-trial.ttf') format('truetype');
+
+    font-style: normal;
+}
+
+body {
+    font-family: 'Cocogoose',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #293241;
+    height: 100vh;
+    width: 100vw;
+}
+
+.center-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+    margin-top: -100px;
+}
+
+.title{
+    
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #ee6c4d;
+}
+
+.center-box-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.url-input{
+    padding:12px 20px;
+    text-align: center;
+    outline: transparent;
+    width: 40%;
+    border-radius: 45px;
+    font-size: 20px;
+    color: #3d5a80;
+    
+
+}
+
+.bnt{
+    padding: 15px 20px;
+    width: 170px;
+    margin-left: 10px;
+    border: 45px;
+    background-color:#ee5a4d;
+    font-size: 20px;
+    color: white;
+    border-radius: 45px;
+    font-family: 'Cocogoose',sans-serif;
+}
+
+.bnt:hover{
+    transition: .5s;
+    background-color: #98c1d9;
+}
